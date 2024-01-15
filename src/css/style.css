@@ -13,3 +13,20 @@
     grid-template-columns: 10% 1fr 10%;
     grid-template-rows: 20% 1fr;
 }
+
+/* Placerar ut nav i gridden */
+nav {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+/* Ändrar huvudnavigationen till att visas som en meny */
+nav ul li {
+    display: inline;
+}
+
+/* Placerar ut huvudinnehållet på gridden */
+main {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
