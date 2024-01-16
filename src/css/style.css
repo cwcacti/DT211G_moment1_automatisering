@@ -33,15 +33,15 @@ main {
 
 /* Bakgrundsfärger */
 main {
-background-color: orange;
-border-radius: 3%;
-text-align: center;
+    background-color: orange;
+    border-radius: 3%;
+    text-align: center;
 }
 
 nav {
-background-color: orangered;
-border-radius: 5%;
-text-align: center;
+    background-color: orangered;
+    border-radius: 5%;
+    text-align: center;
 }
 
 body {
@@ -62,4 +62,17 @@ nav ul li a {
 
 nav ul {
     margin-top: 2%;
+}
+
+/* Bildstorlek */
+#maincontentdiv article img {
+    display: block;
+    margin: auto;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+/*Overflow bort*/
+body {
+    overflow-x: hidden;
 }
