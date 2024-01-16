@@ -72,7 +72,22 @@ nav ul {
     max-height: 40%;
 }
 
-/*Overflow bort*/
+/* Overflow bort */
 body {
     overflow-x: hidden;
+}
+
+/* Margin ner inom main */
+main {
+    h1 {
+        margin-bottom: 2%;
+    }
+
+    article {
+        margin-bottom: 2%;
+    }
+
+    article h3 {
+        margin-bottom: 2%;
+    }
 }
