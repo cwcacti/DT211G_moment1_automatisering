@@ -21,6 +21,36 @@
         <main>
             <h2>Välkommen till min undersida för processinformation!</h2>
             <div id="maincontentdiv">
+                <article>
+                    <h3>Nuvarande arbetsprocess:</h3>
+                    <h4>Uppstart av projekt:</h4>
+                    <p>Jag börjar med att skapa en katalog. I min katalog öppnar jag en terminal. Däri startar jag ett
+                        nytt npm-projekt med kommandot "npm init" och följer uppstartssekvensen, npm är en
+                        pakethanterare som sköter tillägg till nodejs. Jag lägger sedan till tillägget Parcel med
+                        kommandot "npm install parcel --save-dev", detta då tillägget Parcel enbart skall användas vid
+                        utveckling, ej vid publicering. Dessutom anger det att Parcel användes för projektets
+                        utveckling. Parcel i sig sköter enligt min förståelse minifiering av filer vid publicering. Även
+                        transpilering av javascript sköts så länge man angett vilka versioner detta ska göras för. Detta
+                        innebär att javascriptfiler görs körbara för äldre versioner av webbläsare som kanske inte
+                        stöttar nyare javascriptfunktioner. Även bildoptimering sköts, så länge man i sina html-filer
+                        anger att detta ska ske. I package.json anger jag vilken som är källfilen för projektet, till
+                        exempel index.html. Därefter skapar jag källfilen, samt en mapp kallad "src" för ytterligare
+                        moduler. Nu när jag avslutat konfigurationen av npm-projektet öppnar jag vscode och initerar
+                        git, för att påbörja versionshantering. Redan här byter jag till en branch kallad "dev", för att
+                        hålla isär mina arbetsfiler från publiceringsfilerna.</p>
+                    <h4>Utveckling av projekt:</h4>
+                    <p>För att starta upp min utvecklingsmiljö startar jag en terminal som vid uppstart. I den anger jag
+                        kommandot "npm start", vilket startar en lokal liveserver där jag kan se mina ändringar i
+                        realtid. Denna öppnar jag i ett webbläsarfönster. Sedan öppnar jag vscode där den egentliga
+                        programmeringen sker. När jag gjort en del ändringar öppnar jag en ny flik i terminalfönstret
+                        och anger "git commit -a" som sparar en ny version av mina ändrade arbetsfiler via git, den
+                        öppnar också
+                        ett textverktyg där jag skriver mitt commitmeddelande. Skulle jag vilja uppdatera
+                        githubversionen av branchen gör jag detta med "git push" samt en ssh-länk till repot på github.
+                    </p>
+                    <h4>Publicering av projekt:</h4>
+                    <p></p>
+                </article>
             </div>
         </main>
     </div>
