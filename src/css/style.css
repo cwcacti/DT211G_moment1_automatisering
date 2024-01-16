@@ -40,11 +40,26 @@ text-align: center;
 
 nav {
 background-color: orangered;
-border-radius: 3%;
+border-radius: 5%;
 text-align: center;
 }
 
 body {
     background-color: black;
     border-radius: 3%;
+}
+
+/* Få navigationen att se mer ut som knappar */
+nav ul li {
+    font-size: 200%;
+    margin-left: 2%;
+    padding: 1%;
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul {
+    margin-top: 2%;
 }
