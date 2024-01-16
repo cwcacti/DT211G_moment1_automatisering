@@ -3,7 +3,7 @@
 const mainDivElement = document.getElementById("maincontentdiv");
 
 /* Vid fönsterstart */
-window.onload(startUp);
+window.onload = (startUp);
 
 
 /* Uppstartsfunktion */
@@ -12,7 +12,7 @@ function startUp() {
     let newTextNode = document.createTextNode(clockMake())
     mainDivElement.appendChild(newElement);
     newElement.appendChild(newTextNode);
-    console.log("I did stuff");
+    console.log("Jag startade upp");
 }
 
 /*Klockfunktion*/
@@ -27,6 +27,6 @@ function clockMake() {
     if (minutes < 10) {
         minutes = "0" + minutes;
     }
-
+console.log("Klocka skapades");
     return hours + ":" + minutes;
 }
