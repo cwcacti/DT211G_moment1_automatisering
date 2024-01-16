@@ -11,7 +11,7 @@
     height: 100vh;
     width: 100vw;
     grid-template-columns: 10% 1fr 10%;
-    grid-template-rows: 20% 1fr;
+    grid-template-rows: 10% 5% 1fr;
 }
 
 /* Placerar ut nav i gridden */
@@ -28,5 +28,23 @@ nav ul li {
 /* Placerar ut huvudinnehållet på gridden */
 main {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
+}
+
+/* Bakgrundsfärger */
+main {
+background-color: orange;
+border-radius: 3%;
+text-align: center;
+}
+
+nav {
+background-color: orangered;
+border-radius: 3%;
+text-align: center;
+}
+
+body {
+    background-color: black;
+    border-radius: 3%;
 }
